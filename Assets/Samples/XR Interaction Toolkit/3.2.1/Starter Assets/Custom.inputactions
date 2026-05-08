@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Custom",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "ca441a53-3fde-4983-a516-56b1e0a4a53e",
+            "actions": [
+                {
+                    "name": "Menu pressed",
+                    "type": "Button",
+                    "id": "40a7069a-074f-4e27-9d55-8f83961a0ec6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dd8925b1-6faf-41ae-a7a3-9915599a2ba8",
+                    "path": "<XRController>{LeftHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
